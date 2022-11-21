@@ -1,0 +1,104 @@
+
+.status-bar[data-v-6f195d57]{
+		width: 100%;
+		background: var(--6f195d57-bgColor);
+		height: var(--status-bar-height);
+}
+
+
+body{
+		background: #ffffff;
+}
+.bill-details-header{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 99;
+		border-bottom: 0.03125rem #eeeeee solid;
+		box-shadow: 0px 7px 11px -4px #eeeeee;
+}
+.topBar{
+		height: 2.8125rem;
+		line-height: 2.8125rem;
+		width: 21.5625rem;
+		padding: 0 0.9375rem;
+		background: #ffffff;
+		color: black;
+		text-align: center;
+		position: relative;
+		font-size: 1.125rem;
+}
+.topBar-back{
+		position:absolute;
+		top: 0.625rem;
+		left: 0.625rem;
+		width: 1.5625rem;
+		height: 1.5625rem;
+}
+.tabbar-category uni-text{
+		padding: 0.5625rem 0.15625rem;
+		margin: 0 1.40625rem;
+		color: #333333;
+		font-size: 1.125rem;
+}
+.bill-details-main{
+		width: 21.5625rem;
+		padding: 0 0.9375rem;
+}
+.infoItem{
+		line-height: 3.125rem;
+		display: flex;
+		align-items: top;
+		border-bottom: 0.03125rem #eeeeee solid;
+}
+.infoTitle{
+		display: inline-block;
+		font-size: 0.9375rem;
+		color: #333333;
+		width: 4.6875rem;
+		text-align: center;
+}
+.infoContent{
+		display: inline-block;
+		font-size: 1rem;
+		color: #333333;
+		width: 16.875rem;
+}
+.bill-details-Btn{
+		position: absolute;
+		bottom: 1.25rem;
+		left: 0;
+		width: 23.4375rem;
+		display: flex;
+		justify-content: center;
+		position: fixed;
+}
+.bill-details-Btn uni-text{
+		display: inline-block;
+		width: 9.375rem;
+		height: 2.5rem;
+		line-height: 2.5rem;
+		border-radius: 0.3125rem;
+		text-align: center;
+		margin: 0 0.625rem;
+		font-size: 0.9375rem;
+		box-shadow: 0.03125rem 0.15625rem 0.25rem #eeeeee;
+}
+.bill-details-Btn uni-text:hover{
+		opacity: 0.5;
+}
+.mbRemove{
+		background: #eeeeee;
+		border-radius: 0.3125rem;
+		text-align: center;
+		color: #333333;
+		margin: 0 0.625rem;
+}
+.mbEdit{
+		background: #55C394;
+		border-radius: 0.3125rem;
+		text-align: center;
+		color: #ffffff;
+		margin: 0 0.625rem;
+}
+	
